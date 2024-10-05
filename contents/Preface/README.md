@@ -1,7 +1,7 @@
 # Preface
 
 ## Congratulation, but…
-Hi guys have completed the **C Language primer**. **Congratulation!**, now you can make any useful programs to hande any **files** and **console IO**. 
+Hi guys who have completed the **C Language primer**. **Congratulation!**, now you can make any useful programs to hande any **files** and **console IO**. 
 I can hear you grumbling "**That's all?**　Just **files** and **console IO**?, Can I make a cool **Desktop** application passing and accepting **JSON** data via **HTTP** protocol in C?". 
 For now, the answer is **NO**. 
 Since you have completed the introduction to the C language, you must be familiar with handling the **C standard library**, but unfortunately, there is no such **modern kind of stuff** there. 
