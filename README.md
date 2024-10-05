@@ -2,7 +2,7 @@
 Next steps after finishing the C language primer
 
 ## Contents
-- Preface
+- [Preface](contents/Preface)
 - Build System
   - Makefile
   - pkg-config 
