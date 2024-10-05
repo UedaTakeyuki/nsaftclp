@@ -1,5 +1,5 @@
-# nsaftclp
-Next steps after finishing the C language primer
+# Next steps after finishing the C language primer
+Pearls of stuff to make a modern & catchy application in C language.
 
 ## Contents
 - [Preface](contents/Preface)
@@ -15,3 +15,4 @@ Next steps after finishing the C language primer
     - client 
     - server
 - json
+- DB
