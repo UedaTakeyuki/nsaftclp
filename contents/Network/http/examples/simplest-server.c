@@ -1,3 +1,8 @@
+/**
+  The simplest server implementation.
+
+*/
+
 #include <libsoup/soup.h>
 
 // refer https://gist.github.com/tetkuz/f45e9fe26e9da84509db70631b14e2da
@@ -7,8 +12,10 @@ server_callback (SoupServer        *server,
 		 const char        *path,
                  GHashTable        *query,
 		 gpointer           user_data){
-    gchar *string = "hello";
-    GByteArray *body = g_byte_array_new ();
+    gchar *string = "hello"; // message string
+    GByteArray *body; // message body
+
+    body = g_byte_array_new ();
     body = g_byte_array_append (body, (guint8 *)string, strlen(string));
 
     soup_server_message_set_status (msg, SOUP_STATUS_OK, NULL);
