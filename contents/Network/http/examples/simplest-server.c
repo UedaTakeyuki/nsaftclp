@@ -1,6 +1,8 @@
 /**
   The simplest server implementation.
 
+  Confirmed on the following environment
+  - libsoup-3.0 on debian 12.1
 */
 
 #include <libsoup/soup.h>
