@@ -1,4 +1,4 @@
-ALL     = simplest-server
+ALL     = simplest-server simplest-client
 
 all: $(ALL)
 
