@@ -14,10 +14,19 @@ You can use ``pkg-config`` to provide compiler options with the package name ``l
 	gcc $^ -o $@ `pkg-config --cflags --libs libsoup-3.0`
 ```
 
-### Server implementing with libsoup
+### The simplest implementation of a server with libsoup
 Implementing the ***simplest*** server with libsoup would be:
 
 1. Implement the callback function [ServerCallback](https://libsoup.gnome.org/libsoup-3.0/callback.ServerCallback.html) calls [soup_server_message_set_response](https://libsoup.gnome.org/libsoup-3.0/method.ServerMessage.set_response.html) to set response body.
 2. Call [soup_server_add_handler](https://libsoup.gnome.org/libsoup-3.0/method.Server.add_handler.html) with ``ServerCallback`` mentioned above.
 
 A running example is available as [simplest-server.c](examples/simplest-server.c).
+
+### The simplest implementation of a client with libsoup
+Implementing the ***simplest*** client with libsoup would be:
+
+1. Prepare [SoupMessage](https://gnome.pages.gitlab.gnome.org/libsoup/libsoup-3.0/class.Message.html) with ***method*** and ***url***.
+2. Call [soup_session_send_and_read](https://gnome.pages.gitlab.gnome.org/libsoup/libsoup-3.0/method.Session.send_and_read.html) with ```SoupMessage``` prepared above.
+
+A running example is available as [simplest-server.c](examples/simplest-client.c).
+
