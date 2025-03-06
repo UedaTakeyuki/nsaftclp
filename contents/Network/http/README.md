@@ -27,6 +27,7 @@ Implementing the ***simplest*** client with libsoup would be:
 
 1. Prepare [SoupMessage](https://gnome.pages.gitlab.gnome.org/libsoup/libsoup-3.0/class.Message.html) with ***method*** and ***url***.
 2. Call [soup_session_send_and_read](https://gnome.pages.gitlab.gnome.org/libsoup/libsoup-3.0/method.Session.send_and_read.html) with ```SoupMessage``` prepared above.
+3. ***Response body*** is returned as a return value of ```soup_session_send_and_read```. ***Download bytes*** and ***Response headers*** are added into the ***SoupMessage*** passed to the ```soup_session_send_and_read```.
 
 A running example is available as [simplest-server.c](examples/simplest-client.c).
 
