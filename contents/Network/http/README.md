@@ -46,7 +46,7 @@ Build it as follow:
 make simple-client
 ```
 
-Then, run simple-server first and run simple-client. Expected output of simple-client is as follows:
+Then, run simple-server first and run simple-client. Expected output of simple-client is something like as follows:
 
 ```
 > GET / HTTP/1.1
