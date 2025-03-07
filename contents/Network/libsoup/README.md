@@ -1,12 +1,10 @@
-# HTTP
-
-## [libsoup](https://libsoup.gnome.org/libsoup-3.0/index.html)
+# [libsoup](https://libsoup.gnome.org/libsoup-3.0/index.html)
 HTTP client/server library for [GNOME](https://www.gnome.org/).
 
-### [Dependency](https://libsoup.gnome.org/libsoup-3.0/index.html#dependencies)
+## [Dependency](https://libsoup.gnome.org/libsoup-3.0/index.html#dependencies)
 depending on the [GLib](https://docs.gtk.org/glib/), [GObject](https://docs.gtk.org/gobject/), and [Gio](https://docs.gtk.org/gio/). 
 
-### [Building with libsoup](https://libsoup.gnome.org/libsoup-3.0/build-howto.html#building-with-libsoup)
+## [Building with libsoup](https://libsoup.gnome.org/libsoup-3.0/build-howto.html#building-with-libsoup)
 You can use ``pkg-config`` to provide compiler options with the package name ``libsoup-3.0`` like as following Makefile:
 
 ```
@@ -14,7 +12,7 @@ You can use ``pkg-config`` to provide compiler options with the package name ``l
 	gcc $^ -o $@ `pkg-config --cflags --libs libsoup-3.0`
 ```
 
-### The simplest implementation of a server with libsoup.
+## The simplest implementation of a server with libsoup.
 Implementing the ***simplest*** server with libsoup would be:
 
 1. Implement the callback function [ServerCallback](https://libsoup.gnome.org/libsoup-3.0/callback.ServerCallback.html) calls [soup_server_message_set_response](https://libsoup.gnome.org/libsoup-3.0/method.ServerMessage.set_response.html) to set response body.
@@ -22,7 +20,7 @@ Implementing the ***simplest*** server with libsoup would be:
 
 A running example is available as [simplest-server.c](examples/simplest-server.c).
 
-### The simplest implementation of a client with libsoup.
+## The simplest implementation of a client with libsoup.
 Implementing the ***simplest*** client with libsoup would be:
 
 1. Prepare [SoupMessage](https://gnome.pages.gitlab.gnome.org/libsoup/libsoup-3.0/class.Message.html) with ***method*** and ***url***.
@@ -31,7 +29,7 @@ Implementing the ***simplest*** client with libsoup would be:
 
 A running example is available as [simplest-client.c](examples/simplest-client.c).
 
-### How to confirm the simplest examples.
+## How to confirm the simplest examples.
 The ***server example*** [simplest-server.c](examples/simplest-server.c) waits for a connection on port ```8080``` and returns just a string ***hello*** as type text/html. Build it as follow:
 
 ```
