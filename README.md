@@ -12,7 +12,7 @@ Pearls of stuff to make a modern & catchy application in C language.
     - gtk4  
 - Network
   - [http](contents/Network/http)
-    - client 
-    - server
+    - libsoup 
+    - libcurl
 - json
 - DB
