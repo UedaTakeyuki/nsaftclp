@@ -11,8 +11,8 @@ Pearls of stuff to make a modern & catchy application in C language.
     - gtk3
     - gtk4  
 - Network
-  - [http](contents/Network/http)
-    - libsoup 
-    - libcurl
-- json
+  - [libsoup](contents/Network/libsoup)
+  - [libcurl](contents/Network/libcurl)
+- JSON
+  - [json-glib](contents/Network/json-glib)
 - DB
