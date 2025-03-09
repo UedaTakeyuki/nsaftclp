@@ -19,3 +19,19 @@ Implementing the ***simplest*** server with libsoup would be:
 5. Clean up resouces relate curl by [curl_easy_cleanup](https://curl.se/libcurl/c/curl_easy_cleanup.html).
 
 A running example is available as [simplest.c](examples/simplest.c).
+
+## How to confirm the simplest examples.
+The simplest example [simplest.c](examples/simplest.c) send http get to port 8080 of local host as ```[HTTP://[]](http://[::]:8080/)``` and print the ***response body***. So, first of all, you should run a server on port 8080, for example [simplest-server.c](https://github.com/UedaTakeyuki/nsaftclp/blob/main/contents/Network/libsoup/examples/simplest-server.c) of the libsoup server example, reference is available as document "[How to confirm the simplest examples.](https://github.com/UedaTakeyuki/nsaftclp/blob/main/contents/Network/libsoup/README.md#how-to-confirm-the-simplest-examples)".
+
+The [simplest.c](examples/simplest.c) can be build as follow:
+
+```
+make simplest
+```
+
+Then, run simple-server first and run simplest. Expected output of simplest is something like as follows:
+
+```
+./simplest 
+hello
+```
