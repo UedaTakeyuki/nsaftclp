@@ -5,4 +5,4 @@ A free and easy-to-use client-side URL transfer library, supporting DICT, FILE, 
 For installation on debianapt, refer [curl-config.setup.sh](https://github.com/UedaTakeyuki/gc_setups/blob/master/curl-config.setup.sh).
 
 ## Build
-Instead of pkg-config, libcurl provides an internal tool named ```curl-config``` to provide necessary information for build like header file or libraries. for more detail, refer document [curl-config is our friend](https://curl.se/libcurl/using/).
+Instead of pkg-config, libcurl provides an internal tool named ```curl-config``` to provide necessary information for build like header file or libraries. for more detail, refer document "[curl-config is our friend](https://curl.se/libcurl/using/)".
