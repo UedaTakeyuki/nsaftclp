@@ -17,3 +17,5 @@ Implementing the ***simplest*** server with libsoup would be:
 3. Set a URL by ```curl_easy_setopt``` with parameter ```CURLOPT_URL```
 4. Perform calling curl by [curl_easy_perform](https://curl.se/libcurl/c/curl_easy_perform.html).
 5. Clean up resouces relate curl by [curl_easy_cleanup](https://curl.se/libcurl/c/curl_easy_cleanup.html).
+
+A running example is available as [simplest.c](examples/simplest.c).
