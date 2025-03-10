@@ -1,3 +1,2 @@
 # json-glib
-JSON-GLib is a library providing serialization and deserialization support for the JavaScript Object Notation (JSON) format described by RFC 4627.
-JSON-GLib uses GLib native data types and the generic value container GValue for ease of development. It also provides integration with the GObject classes for direct serialization into, and deserialization from, JSON data streams.
+JSON-GLib implements a full suite of JSON-related tools using GLib and GObject.
