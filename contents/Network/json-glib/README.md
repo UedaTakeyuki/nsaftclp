@@ -8,3 +8,4 @@ C headers	```json-glib/json-glib.h```.
 pkg-config files	```json-glib-1.0```.
 
 
+[functions to get value from JsonNode*](https://gnome.pages.gitlab.gnome.org/json-glib/method.Path.match.html?q=json_node_get) 
