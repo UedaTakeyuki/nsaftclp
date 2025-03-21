@@ -6,7 +6,7 @@ Pearls of stuff to make a modern & catchy application in C language.
 - Build System
   - Makefile
   - pkg-config
-- [Testing Framework](https://docs.gtk.org/glib/testing.html) 
+- [Testing Framework](contents/Test) 
 - UI
   - gtk: Offering a complete set of UI elements, GTK is suitable for projects ranging from small one-off tools to complete application suites.
     - gtk3
