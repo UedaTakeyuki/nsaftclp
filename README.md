@@ -15,5 +15,5 @@ Pearls of stuff to make a modern & catchy application in C language.
   - [libsoup](contents/Network/libsoup): HTTP client/server library for GNOME
   - [libcurl](contents/Network/libcurl): Your network transfer library
 - JSON
-  - [json-glib](contents/Network/json-glib): A JSON reader and writer library using GLib and GObject
+  - [json-glib](contents/JSON/json-glib): A JSON reader and writer library using GLib and GObject
 - DB
