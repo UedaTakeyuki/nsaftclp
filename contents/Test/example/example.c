@@ -1,5 +1,4 @@
 #include <glib.h>
-#include <locale.h>
 
 static void
 test_1_1 (void)
@@ -11,8 +10,6 @@ test_1_1 (void)
 int
 main (int argc, char *argv[])
 {
-  setlocale (LC_ALL, "");
-
   g_test_init (&argc, &argv, NULL);
 
   // Define the tests.
