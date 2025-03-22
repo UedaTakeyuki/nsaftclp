@@ -68,5 +68,5 @@ Debugging macro to compare two [struct@GLib.Variant] values.
 - [g_assert_not_reached](https://docs.gtk.org/glib/func.assert_not_reached.html)  
 Debugging macro to terminate the application if it is ever reached.
 
-- [g_assert_cmpfloat_with_epsilon](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpfloat_with_epsilon](https://docs.gtk.org/glib/func.assert_cmpfloat_with_epsilon.html)  
 Debugging macro to compare two floating point numbers within an epsilon.
