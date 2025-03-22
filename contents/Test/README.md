@@ -26,46 +26,46 @@ Debugging macro to check an expression is `NULL`.
 - [g_assert_true](https://docs.gtk.org/glib/func.assert_true.html)  
 Debugging macro to check that an expression is true.
 
-- [g_assert_error](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_error](https://docs.gtk.org/glib/func.assert_error.html)  
 Debugging macro to check that a method has returned the correct [struct@GLib.Error].
 
-- [g_assert_false](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_false](https://docs.gtk.org/glib/func.assert_false.html)  
 Debugging macro to check an expression is false.
 
-- [g_assert_cmphex](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmphex](https://docs.gtk.org/glib/func.assert_cmphex.html)  
 Debugging macro to compare to unsigned integers.
 
-- [g_assert_cmpint](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpint](https://docs.gtk.org/glib/func.assert_cmpint.html)  
 Debugging macro to compare two integers.
 
-- [g_assert_cmpmem](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpmem](https://docs.gtk.org/glib/func.assert_cmpmem.html)  
 Debugging macro to compare memory regions.
 
-- [g_assert_cmpstr](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpstr](https://docs.gtk.org/glib/func.assert_cmpstr.html)  
 Debugging macro to compare two strings.
 
-- [g_assert_cmpstrv](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpstrv](https://docs.gtk.org/glib/func.assert_cmpstrv.html)  
 Debugging macro to check if two `NULL`-terminated string arrays (i.e. 2 `GStrv`) are equal.
 
-- [g_assert_cmpuint](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpuint](https://docs.gtk.org/glib/func.assert_cmpuint.html)  
 Debugging macro to compare two unsigned integers.
 
-- [g_assert_nonnull](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_nonnull](https://docs.gtk.org/glib/func.assert_nonnull.html)  
 Debugging macro to check an expression is not `NULL`.
 
-- [g_assert_cmpfloat](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpfloat](https://docs.gtk.org/glib/func.assert_cmpfloat.html)  
 Debugging macro to compare two floating point numbers.
 
-- [g_assert_no_errno](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_no_errno](https://docs.gtk.org/glib/func.assert_no_errno.html)  
 Debugging macro to check that an expression has a non-negative return value.
 
 - [g_assert_no_error](https://docs.gtk.org/glib/func.assert_no_error.html)  
 Debugging macro to check that a [struct@GLib.Error] is not set. [example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
 
-- [g_assert_cmpvariant](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_cmpvariant](https://docs.gtk.org/glib/func.assert_cmpvariant.html)  
 Debugging macro to compare two [struct@GLib.Variant] values.
 
-- [g_assert_not_reached](https://docs.gtk.org/glib/func.assert_.html)  
+- [g_assert_not_reached](https://docs.gtk.org/glib/func.assert_not_reached.html)  
 Debugging macro to terminate the application if it is ever reached.
 
 - [g_assert_cmpfloat_with_epsilon](https://docs.gtk.org/glib/func.assert_.html)  
