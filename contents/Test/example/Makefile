@@ -3,7 +3,7 @@ ALL     = example
 all: $(ALL)
 
 %: %.c
-	gcc $^ -o $@ `pkg-config --cflags --libs glib-2.0 libsoup-3.0`
+	gcc $^ -o $@ `pkg-config --cflags --libs glib-2.0`
 
 clean:
 	rm $(ALL) 
