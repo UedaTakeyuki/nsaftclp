@@ -37,13 +37,15 @@ Debugging macro to check an expression is false.
 Debugging macro to compare to unsigned integers.
 
 - [g_assert_cmpint](https://docs.gtk.org/glib/func.assert_cmpint.html)  
-Debugging macro to compare two integers.
+Debugging macro to compare two integers.  
+[example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L38)  
 
 - [g_assert_cmpmem](https://docs.gtk.org/glib/func.assert_cmpmem.html)  
 Debugging macro to compare memory regions.
 
 - [g_assert_cmpstr](https://docs.gtk.org/glib/func.assert_cmpstr.html)  
-Debugging macro to compare two strings.
+Debugging macro to compare two strings.  
+[example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L47)  
 
 - [g_assert_cmpstrv](https://docs.gtk.org/glib/func.assert_cmpstrv.html)  
 Debugging macro to check if two `NULL`-terminated string arrays (i.e. 2 `GStrv`) are equal.
@@ -52,7 +54,8 @@ Debugging macro to check if two `NULL`-terminated string arrays (i.e. 2 `GStrv`)
 Debugging macro to compare two unsigned integers.
 
 - [g_assert_nonnull](https://docs.gtk.org/glib/func.assert_nonnull.html)  
-Debugging macro to check an expression is not `NULL`.
+Debugging macro to check an expression is not `NULL`.  
+[example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L41)  
 
 - [g_assert_cmpfloat](https://docs.gtk.org/glib/func.assert_cmpfloat.html)  
 Debugging macro to compare two floating point numbers.
