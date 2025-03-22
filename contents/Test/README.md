@@ -6,4 +6,4 @@
 3. Call [g_test_run](https://docs.gtk.org/glib/func.test_run.html).
 
 ## How to confirm the simplest examples.
-The simplest unit test example is available as []()
+The simplest unit test example is available as [example.c](example/example.c)
