@@ -24,7 +24,8 @@ The simplest unit test example is available as [example.c](example/example.c)
 Debugging macro to check an expression is `NULL`.
 
 - [g_assert_true](https://docs.gtk.org/glib/func.assert_true.html)  
-Debugging macro to check that an expression is true.
+Debugging macro to check that an expression is true.  
+ [example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L37)  
 
 - [g_assert_error](https://docs.gtk.org/glib/func.assert_error.html)  
 Debugging macro to check that a method has returned the correct [struct@GLib.Error].
@@ -60,7 +61,8 @@ Debugging macro to compare two floating point numbers.
 Debugging macro to check that an expression has a non-negative return value.
 
 - [g_assert_no_error](https://docs.gtk.org/glib/func.assert_no_error.html)  
-Debugging macro to check that a [struct@GLib.Error] is not set. [example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
+Debugging macro to check that a [struct@GLib.Error] is not set.  
+[example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
 
 - [g_assert_cmpvariant](https://docs.gtk.org/glib/func.assert_cmpvariant.html)  
 Debugging macro to compare two [struct@GLib.Variant] values.
