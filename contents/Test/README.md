@@ -7,3 +7,6 @@
 
 ## How to confirm the simplest examples.
 The simplest unit test example is available as [example.c](example/example.c)
+
+## Available assertions
+The available [functions and macros](https://docs.gtk.org/glib/func.test_run.html?q=g_assert).
