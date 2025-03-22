@@ -20,53 +20,53 @@ You can use pkg-config to provide compiler options with the package name **glib-
 The simplest unit test example is available as [example.c](example/example.c)
 
 ## Available assertions
-- g_assert_null
+- [g_assert_null](https://docs.gtk.org/glib/func.assert_null.html)  
 Debugging macro to check an expression is `NULL`.
 
-- g_assert_true
+- [g_assert_true](https://docs.gtk.org/glib/func.assert_true.html)  
 Debugging macro to check that an expression is true.
 
-- g_assert_error macro
+- [g_assert_error](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to check that a method has returned the correct [struct@GLib.Error].
 
-- g_assert_false macro
+- [g_assert_false](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to check an expression is false.
 
-- g_assert_cmphex macro
+- [g_assert_cmphex](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare to unsigned integers.
 
-- g_assert_cmpint macro
+- [g_assert_cmpint](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two integers.
 
-- g_assert_cmpmem macro
+- [g_assert_cmpmem](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare memory regions.
 
-- g_assert_cmpstr macro
+- [g_assert_cmpstr](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two strings.
 
-- g_assert_cmpstrv macro
+- [g_assert_cmpstrv](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to check if two `NULL`-terminated string arrays (i.e. 2 `GStrv`) are equal.
 
-- g_assert_cmpuint macro
+- [g_assert_cmpuint](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two unsigned integers.
 
-- g_assert_nonnull macro
+- [g_assert_nonnull](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to check an expression is not `NULL`.
 
-- g_assert_cmpfloat macro
+- [g_assert_cmpfloat](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two floating point numbers.
 
-- g_assert_no_errno macro
+- [g_assert_no_errno](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to check that an expression has a non-negative return value.
 
 - [g_assert_no_error](https://docs.gtk.org/glib/func.assert_no_error.html)  
 Debugging macro to check that a [struct@GLib.Error] is not set. [example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
 
-- g_assert_cmpvariant macro
+- [g_assert_cmpvariant](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two [struct@GLib.Variant] values.
 
-- g_assert_not_reached macro
+- [g_assert_not_reached](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to terminate the application if it is ever reached.
 
-- g_assert_cmpfloat_with_epsilon macro
+- [g_assert_cmpfloat_with_epsilon](https://docs.gtk.org/glib/func.assert_.html)  
 Debugging macro to compare two floating point numbers within an epsilon.
