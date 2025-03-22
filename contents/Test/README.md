@@ -4,7 +4,7 @@
 Depends only [GLib](https://docs.gtk.org/glib/)
 
 # Building
-You can use pkg-config to provide compiler options with the package name glib-2.0 like as following Makefile:
+You can use pkg-config to provide compiler options with the package name **glib-2.0** like as following Makefile:
 
 ```
 %: %.c
