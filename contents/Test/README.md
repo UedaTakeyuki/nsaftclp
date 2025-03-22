@@ -60,8 +60,7 @@ Debugging macro to compare two floating point numbers.
 Debugging macro to check that an expression has a non-negative return value.
 
 - [g_assert_no_error](https://docs.gtk.org/glib/func.assert_no_error.html)  
-Debugging macro to check that a [struct@GLib.Error] is not set.  
-[example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
+Debugging macro to check that a [struct@GLib.Error] is not set. [example](https://github.com/GNOME/json-glib/blob/json-glib-1-6/json-glib/tests/reader.c#L33)  
 
 - g_assert_cmpvariant macro
 Debugging macro to compare two [struct@GLib.Variant] values.
