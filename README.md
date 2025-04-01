@@ -5,7 +5,7 @@ Pearls of stuff to make a modern & catchy application in C language.
 - [Preface](contents/Preface)
 - Build
   - build system
-    - make
+    - [make](contents/Build/build system/make)
     - cmake
     - meson
   - helper
