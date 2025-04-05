@@ -1,6 +1,7 @@
 # gtk
 
 ## Makefile
+The required headers and libraries can be specified by ``pkg-config`` tool. So an example default makefile with gcc compiler for gtk3 and gtk4 are as follows:
 ### gtk3
 ```
 %: %.c
