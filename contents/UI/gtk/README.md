@@ -1,5 +1,10 @@
 # gtk
 
+## Install with apt
+- [gtk3](https://github.com/UedaTakeyuki/gc_setups/blob/master/gtk3.setup.sh)
+- [gtk4](https://github.com/UedaTakeyuki/gc_setups/blob/master/gtk4.setup.sh)
+- [gtkmm4](https://github.com/UedaTakeyuki/gc_setups/blob/master/gtkmm4.setup.sh)
+
 ## Makefile
 The required headers and libraries can be specified by ``pkg-config`` tool. So an example default makefile with gcc compiler for gtk3 and gtk4 are as follows:
 ### gtk3
