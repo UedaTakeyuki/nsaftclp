@@ -10,7 +10,10 @@ Pearls of stuff to make a modern & catchy application in C language.
     - [meson](contents/Build/build_system/meson)
   - helper
     - [pkg-config](contents/Build/helper/pkg-config)
-- [Testing Framework](contents/Test) 
+- [Testing Framework](contents/Test)
+- Debug
+  - gdb
+  - gprof
 - UI
   - [gtk](contents/UI/gtk): Offering a complete set of UI elements, GTK is suitable for projects ranging from small one-off tools to complete application suites.
     - gtk3
