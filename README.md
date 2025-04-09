@@ -20,7 +20,7 @@ Pearls of stuff to make a modern & catchy application in C language.
   - Dynamic analysis tools
     - gprof
     - Valgrind
-  - Discompiler
+  - Reverse engineering tools
     - ghidra 
 - libraries
   - UI
