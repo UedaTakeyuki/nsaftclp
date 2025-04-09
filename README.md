@@ -14,6 +14,7 @@ Pearls of stuff to make a modern & catchy application in C language.
       - [meson](contents/tools/Build/build_system/meson)
     - helper
       - [pkg-config](contents/tools/Build/helper/pkg-config)
+  - Binary tools  
   - [Testing Framework](contents/tools/Test)
   - Debug
     - gdb
