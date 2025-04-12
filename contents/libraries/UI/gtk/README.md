@@ -17,6 +17,11 @@ The required headers and libraries can be specified by ``pkg-config`` tool. So a
 %: %.c
 	gcc $^ -o $@ `pkg-config --cflags --libs gtk+-4.0`
 ```
+
+## Namespaces
+- [Gdk-3.0](https://docs.gtk.org/gdk3/)
+- [GdkX11-3.0](https://docs.gtk.org/gdk3-x11/)
+  
 ## examples
 - [gtk3-tutorial](https://github.com/RainMark/gtk3-tutorial): A comprehensive examples of ``gtk-3``.
 - [GTK-Examples](https://github.com/Miqueas/GTK-Examples): A comprehensive examples of ``gtk-3`` and ``gtk-4`` with **C**, **lua**, and **vala**.
