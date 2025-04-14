@@ -25,3 +25,10 @@ The required headers and libraries can be specified by ``pkg-config`` tool. So a
 ## examples
 - [gtk3-tutorial](https://github.com/RainMark/gtk3-tutorial): A comprehensive examples of ``gtk-3``.
 - [GTK-Examples](https://github.com/Miqueas/GTK-Examples): A comprehensive examples of ``gtk-3`` and ``gtk-4`` with **C**, **lua**, and **vala**.
+
+## Tips
+- In case the **gtk_window_move** is not working.
+With recent gtk3, calling **gtk_window_move** before **gtk_widget_show_all** may not work.
+
+- No **gtk_window_move** in **gtk4**
+[refer](https://discourse.gnome.org/t/set-absolut-window-position-in-gtk4/8552/4). 
