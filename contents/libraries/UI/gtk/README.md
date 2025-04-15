@@ -32,3 +32,9 @@ With recent gtk3, calling **gtk_window_move** before **gtk_widget_show_all** may
 
 ### No **gtk_window_move** in **gtk4**.
 [refer](https://discourse.gnome.org/t/set-absolut-window-position-in-gtk4/8552/4). 
+
+### Confusing terminology
+- **GdkDisplay** is an object that represents a single connection to a **display server**, like the **X11 server**, or a **Wayland compositor**
+- **GdkScreen** is a screen in the same way that X11 has Screens; it's a virtual entity that may match multiple monitors, or parts of a monitor. Modern GDK/GTK code assumes a 1:1 match between GdkDisplay and GdkScreen..
+
+For more, [refer](https://stackoverflow.com/a/30220738/11073131).
