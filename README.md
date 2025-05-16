@@ -24,6 +24,9 @@ Pearls of stuff to make a modern & catchy application in C language.
   - Reverse engineering tools
     - ghidra 
 - libraries
+  - [glib](https://docs.gtk.org/glib/)
+    - [Spawning Processes](https://docs.gtk.org/glib/spawn.html)
+    - [Shell Utilities](https://docs.gtk.org/glib/shell.html)
   - UI
     - [gtk](contents/libraries/UI/gtk): Offering a complete set of UI elements, GTK is suitable for projects ranging from small one-off tools to complete application suites.
       - gtk3
