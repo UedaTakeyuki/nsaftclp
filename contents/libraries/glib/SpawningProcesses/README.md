@@ -4,10 +4,10 @@
 ### Synchronous functions.
 For [g_spawn_sync()](https://docs.gtk.org/glib/func.spawn_sync.html) and [g_spawn_command_line_async()](https://docs.gtk.org/glib/func.spawn_command_line_sync.html)
 
-- [source file]()
-- [make file]()
+- [source file](examples/sync.c)
+- [make file](examples/Makefile)
 - How to Build
-
+Down to the ``examples`` folder and make it as follows:
 ```
 make sync
 ```
