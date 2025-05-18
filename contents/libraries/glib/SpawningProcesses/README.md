@@ -3,7 +3,7 @@ GLib supports spawning of processes. for more detail, refer the official documen
 
 ## Examples
 ### Synchronous functions.
-For [g_spawn_sync()](https://docs.gtk.org/glib/func.spawn_sync.html) and [g_spawn_command_line_async()](https://docs.gtk.org/glib/func.spawn_command_line_sync.html)
+An example for [g_spawn_sync()](https://docs.gtk.org/glib/func.spawn_sync.html) and [g_spawn_command_line_async()](https://docs.gtk.org/glib/func.spawn_command_line_sync.html) with calling ```ps -aef``` and ```ls``` each other.
 
 - [source file](examples/sync.c)
 - [make file](examples/Makefile)
