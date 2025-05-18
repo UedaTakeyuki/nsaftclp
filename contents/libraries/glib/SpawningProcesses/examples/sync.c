@@ -15,7 +15,7 @@ void main(){
     g_free(error);
   } else {
     g_message("status: %d", exit_status);
-    printf("result: %hs", output);
+    printf("result: %hs", output); // printf with %hs can support UTF-8 despite g_message can't it.
     g_free(output);
   } 
 
@@ -26,7 +26,7 @@ void main(){
     g_free(error);
   } else {
     g_message("status: %d", exit_status);
-    printf("result: %hs", output);
+    printf("result: %hs", output); // printf with %hs can support UTF-8 despite g_message can't it.
     g_free(output);
   } 
 
