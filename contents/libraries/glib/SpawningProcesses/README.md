@@ -1,4 +1,5 @@
 # Spawning Processes
+GLib supports spawning of processes. for more detail, refer the official document of [Spawning Processes](https://docs.gtk.org/glib/spawn.html)
 
 ## Examples
 ### Synchronous functions.
