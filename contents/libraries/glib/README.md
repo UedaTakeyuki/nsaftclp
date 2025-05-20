@@ -16,4 +16,4 @@ You can use pkg-config to provide compiler options with the package name libsoup
 
 - [Spawning Processes](SpawningProcesses)
 - timer
-- [Automatic Cleanup](https://docs.gtk.org/glib/auto-cleanup.html)
+- [Automatic Cleanup](AutomaticCleanup)
