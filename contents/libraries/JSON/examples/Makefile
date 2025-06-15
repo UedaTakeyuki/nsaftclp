@@ -9,4 +9,4 @@ json: $(ALL)
 	gcc $(SRCS) -g `pkg-config --cflags --libs json-glib-1.0` -o $@
 
 clean:
-	rm *.o json
+	rm json
